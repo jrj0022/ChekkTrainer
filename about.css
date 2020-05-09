@@ -1,0 +1,171 @@
+/* 
+#202225 - darkest “dark” gray — header
+#2F3137 - darker “dark” gray — sections 
+#36393F - lighter “dark” gray — body
+#B9BBBE - very light grey 
+#6441A5 - purple
+#BB86FC - ligher purple (main)
+#03DAC6 - neon green (main)
+#B0219B - magenta
+#5E70BD - blueish 
+*/
+
+body {
+    background-color: #202225;
+}
+
+#mainNavbar img {
+    width: 50px;
+
+}
+#mainNavbar #active .nav-link {
+    color: #03DAC6;
+
+}
+#navLinks .nav-link:hover {
+    color: #03DAC6;
+}
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar {
+    font-size: 1.125rem;
+    font-weight: 100;
+}
+.topSection {
+    min-height: 65vh;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+}
+.missionBody {
+    padding-top: 100px;
+    background:
+    /* top, transparent black, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+    /* bottom, image */
+    url(imgs/background.jpg);
+}
+
+
+#headingGroup h1 {
+    font-size: 4rem;
+    font-weight: 100;
+    padding-top: 15%;
+    color: white;
+    padding-left: 5%;
+}
+.blurb h2 {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 100;
+    text-decoration: underline;
+    text-decoration-color: #BB86FC;
+}
+.blurb p {
+    color: #B9BBBE;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+.navbar.scrolled {
+    background: #202225;
+    transition: background 200ms;
+}
+.theTeam {
+    padding-top: 100px;
+    background: #2F3137;
+    color: white;
+    padding-bottom: 100px;
+}
+.theTeam h2 {
+    font-size: 2.5rem;
+    
+}
+.theTeam h1 {
+    padding-bottom: 2.5%;
+    font-size: 2.5rem;
+    font-weight: 100;
+    text-decoration: underline;
+    text-decoration-color: #BB86FC;
+}
+h4 {
+    font-weight: 100;
+    font-size: 1rem;
+}
+.connect {
+    min-height: 40vh;
+    padding-top: 5%;
+    color: white;
+    
+}
+.connect img {
+    max-height: 400px;
+}
+.connect h1 {
+    font-size: 3rem;
+    font-weight: 100;
+    padding-bottom: 2.5%;
+}
+.connect p {
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+.btn {
+        border: 3px solid #03DAC6;
+        border-radius: 50px;
+        width: 120px;
+        height: 40px;
+        color: #FFFFFF;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+}
+.btn:hover {
+    background-color: #BB86FC;
+    border-color: #BB86FC;
+}
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-size: 3em;
+        font-weight: 100;
+    }
+    .connect h1 {
+        font-size: 2rem;
+    }
+    .connect p {
+        font-size: 1rem;
+    }
+
+}
+@media (min-width: 768px) {
+    .missionBody img {
+        padding-left: 25%;
+    }
+    .connect h1 {
+        font-size: 2rem;
+    }
+    .connect p {
+        font-size: 1rem;
+    }
+
+}
+@media (min-width: 768px) {
+    .connect img {
+        padding-left: 25%;
+    }
+    .connect h1 {
+        font-size: 3rem;
+    }
+    .connect p {
+        font-size: 1.5rem;
+    }
+
+}
+
+
+

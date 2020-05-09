@@ -1,0 +1,44 @@
+body {
+    background: #202225;
+    font-family: 'Didact Gothic', sans-serif;
+}
+.container-fluid.px-0 {
+    height: 70vh;
+    border: solid 1px red;
+}
+
+#headingGroup {
+    padding-top: 20%;
+    padding-left: 14px;
+    border: solid 1px red;
+}
+
+.input-group {
+    padding: 5% 10% 25% 26px;
+    max-width: 550px;
+    border: solid 1px red;
+}
+.col-lg-7 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border: solid 1px red;
+}
+@media screen and (max-width: 1200px) {
+    .col-lg-7 img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+        padding-top: 0pxs;
+    }
+    }
+@media screen and (max-width: 1200px) {
+    .input-group {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5% 10% 0% 26px;
+        
+    }
+}
